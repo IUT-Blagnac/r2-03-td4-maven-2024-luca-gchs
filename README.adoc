@@ -1,3 +1,16 @@
 Documentez votre projet: remplacez le contenu de ce fichier README.doc par les instructions de compilation, de documentation et de lancement de votre projet.
 
+Instructions de compilatio du projet : 
 
+
+mvn clean : nettoyer tout ce qui a pu se passer avant
+
+mvn compile 
+
+mvn package
+
+java -jar target/tp_qualite-1.0.jar
+
+POur la génération de la JavaDoc : 
+
+mvn javadoc:javadoc
