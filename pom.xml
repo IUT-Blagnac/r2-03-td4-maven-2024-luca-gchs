@@ -28,7 +28,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>main</mainClass>
+              <mainClass>codingDojo</mainClass> <!-- on a juste modifié le nom de la class qui porte le main--> 
             </manifest>
           </archive>
         </configuration>

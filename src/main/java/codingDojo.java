@@ -1,4 +1,4 @@
-package TP2;
+
 
 public class codingDojo {
 	// méthode Test Driven Development.

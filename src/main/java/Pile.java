@@ -1,15 +1,21 @@
-package TP2;
+
 
 public class Pile {
 
 	private int tabElement[]; 
 	private int sommet; 
 	
+	/**
+	 * Constucteur paramétré de la classe Pile 
+	 * @param pfVal IN : taille du tableau d'éléments 
+	 */
 	Pile(int pfVal) {
 		this.tabElement = new int[pfVal]; 
 		this.sommet = -1; 
 	}
-	
+	/**
+	 * Constructeur non paramétré de la classe Pile qui initialise notre tablea d'éléments à 100 avec un sommet à -1
+	 */
 	Pile() {
 		this.tabElement = new int[100]; 
 		this.sommet = -1; 
