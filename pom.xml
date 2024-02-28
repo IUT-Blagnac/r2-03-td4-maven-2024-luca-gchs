@@ -28,7 +28,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>HelloJava</mainClass>
+              <mainClass>main</mainClass>
             </manifest>
           </archive>
         </configuration>
